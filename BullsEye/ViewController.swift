@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         if points < 50
         {
-            title = "Not so good, pal."
+            title = "U SUCK"
         }
         
         else if points < 85
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         
         else
         {
-            title = "Holy mackerel!"
+            title = "Good Gravy"
         }
         
         let message = "You scored \(points) points"
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
     }
     
     func startNewRound() {
-        round += 1
+        round += 2
         targetValue = 1 + Int(arc4random_uniform(100))
         currentValue = 50
         slider.value = Float(50)
