@@ -48,7 +48,7 @@ class ViewController: UIViewController {
             title = "I've seen worse."
         }
         
-        else if points < 99
+        else if points < 100
         {
             title = "Close but no cigar."
         }
